@@ -1,6 +1,8 @@
 // src/components/Text/Text.tests.tsx
 import React from 'react';
 import { render } from '@testing-library/react';
+import '@testing-library/jest-dom';
+
 import Dropdown from './Dropdown';
 
 const options = [

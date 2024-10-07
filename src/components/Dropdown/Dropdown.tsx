@@ -19,6 +19,7 @@ const StyledSelect = styled.select<{ disabled?: boolean }>`
   ${props => props.disabled && css` 
     background: lightgray;
     color: darkgray;
+    opacity: 0.6;
     cursor: not-allowed; /* Change cursor for disabled state */
     pointer-events: none; /* Prevent interactions when disabled */
   `}

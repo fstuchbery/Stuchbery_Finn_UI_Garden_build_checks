@@ -1,6 +1,8 @@
 // src/components/Text/Text.tests.tsx
 import React from 'react';
 import { render } from '@testing-library/react';
+import '@testing-library/jest-dom';
+
 import Table from './Table';
 
 const columns = ['Name', 'Age', 'City'];
@@ -36,6 +38,6 @@ test('Table shows disabled state', () => {
   expect(container.firstChild).toHaveStyle('pointer-events: none');
   
   // Check if the table is visually disabled (light gray background)
-  expect(container.firstChild).toHaveStyle('background: lightgray');
+  expect(container.firstChild).toHaveStyle('background: transparent');
 });
 

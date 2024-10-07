@@ -4,7 +4,7 @@ import '@testing-library/jest-dom';
 import Label from "./Label";
 
 test('renders button with label', () => {
-  render(<Label label="Test Button" />);
+  render(<Label label="Test Label" />);
   const buttonElement = screen.getByText(/Test Label/i);
   expect(buttonElement).toBeInTheDocument(); // Check that the button is visible
 });
