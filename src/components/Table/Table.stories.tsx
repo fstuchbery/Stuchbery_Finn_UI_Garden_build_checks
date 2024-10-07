@@ -16,8 +16,8 @@ export const Default = Template.bind({});
 Default.args = {
   columns: ['Name', 'Age', 'City'], // Columns for the table
   data: [
-    ['Alice', '30', 'New York'],
-    ['Bob', '25', 'San Francisco'],
+    ['Finn', '21', 'Winnipeg'],
+    ['Cooper', '21', 'Winnipeg'],
   ], // Sample data for the table
 };
 
@@ -26,8 +26,8 @@ export const Disabled = Template.bind({});
 Disabled.args = {
   columns: ['Name', 'Age', 'City'],
   data: [
-    ['Alice', '30', 'New York'],
-    ['Bob', '25', 'San Francisco'],
+    ['Spencer', '25', 'Winnipeg'],
+    ['Nick', '59', 'Winnipeg'],
   ],
   disabled: true, // Set disabled to true for this state
 };
