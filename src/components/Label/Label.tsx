@@ -1,10 +1,10 @@
 import React from "react";
 import styled, { css } from 'styled-components';
-import { ButtonProps } from './Button.types'; // Import ButtonProps
+import { LabelProps } from './Label.types'; // Import ButtonProps
 
 
 // Create a styled button component
-const StyledButton = styled.button<{}>`
+const StyledLabel = styled.button<{}>`
  background: transparent;
   border-radius: 3px;
   border: 2px solid #BF4F74;
@@ -20,12 +20,12 @@ const StyledButton = styled.button<{}>`
   `}
 `;
 
-const Button: React.FC<ButtonProps> = (props) => {
+const Label: React.FC<LabelProps> = (props) => {
   return (
-    <StyledButton disabled={props.disabled}>
+    <StyledLabel disabled={props.disabled}>
       {props.label}
-    </StyledButton>
+    </StyledLabel>
   );
 };
 
-export default Button;
+export default Label;
