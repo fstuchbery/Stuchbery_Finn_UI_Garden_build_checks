@@ -1,4 +1,3 @@
-
 export interface DropdownOption {
   label: string; // Display label for the option
   value: string; // Value for the option

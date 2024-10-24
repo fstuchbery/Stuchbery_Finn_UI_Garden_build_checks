@@ -1,19 +1,20 @@
 import React from "react";
-import styled, { css } from 'styled-components';
-import { TableProps } from './Table.types'; // Import ButtonProps
-
+import styled, { css } from "styled-components";
+import { TableProps } from "./Table.types"; // Import ButtonProps
 
 // Create a styled button component
 const StyledTable = styled.table<{ disabled?: boolean }>`
   background: transparent;
   border-radius: 3px;
-  border: 2px solid #BF4F74;
-  color: #BF4F74;
+  border: 2px solid #bf4f74;
+  color: #bf4f74;
   margin: 0.5em 1em;
   width: 100%;
   border-collapse: collapse;
-  opacity: ${({ disabled }) => (disabled ? 0.6 : 1)}; /* Change opacity when disabled */
-  pointer-events: ${({ disabled }) => (disabled ? 'none' : 'auto')}; /* Prevent interactions when disabled */
+  opacity: ${({ disabled }) =>
+    disabled ? 0.6 : 1}; /* Change opacity when disabled */
+  pointer-events: ${({ disabled }) =>
+    disabled ? "none" : "auto"}; /* Prevent interactions when disabled */
 `;
 
 const StyledTh = styled.th`

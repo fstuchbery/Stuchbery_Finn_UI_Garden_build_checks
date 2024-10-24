@@ -1,8 +1,9 @@
 # UI Garden
 
-This is a UI component library/toolkit built with React and Storybook. 
+This is a UI component library/toolkit built with React and Storybook.
 
 ## Components Included
+
 - Button
 - Label
 - Text
@@ -30,8 +31,10 @@ Navigate to the root directory of the project where the `Dockerfile` is located 
 ```bash
 docker build -t stuchbery_finn_ui_garden .
 
-``` 
-###  this is running the docker build 
+```
+
+### this is running the docker build
+
 Navigate to the root directory of the project where the `Dockerfile` is located and run:
 
 ```bash
