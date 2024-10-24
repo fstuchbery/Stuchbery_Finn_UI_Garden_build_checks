@@ -14,7 +14,7 @@ const Template: StoryFn<typeof Button> = (args) => <Button {...args} />;
 // Default state
 export const Default = Template.bind({});
 Default.args = {
-  label: "This is the default button! and im changing changed it again ",
+  label: "This is the default button! and im changing changed it again and again ",
 };
 
 // Disabled button state
