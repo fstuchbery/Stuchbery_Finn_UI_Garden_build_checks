@@ -38,5 +38,5 @@ docker build -t stuchbery_finn_ui_garden .
 Navigate to the root directory of the project where the `Dockerfile` is located and run:
 
 ```bash
-docker run -d -p 8083:80 --name Stuchbery_Finn_ui_garden stuchbery_finn_ui_garden
+docker run -d -p 8018:80 --name Stuchbery_Finn_ui_garden stuchbery_finn_ui_garden
 ```

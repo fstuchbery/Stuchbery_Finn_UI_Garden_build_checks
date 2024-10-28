@@ -14,8 +14,10 @@
     "test_two": "jest",
     "eject": "react-scripts eject"
   },
+
   "author": "Finn stuchbery :-)",
   "license": "ISC",
+
   "devDependencies": {
     "@babel/core": "^7.25.7",
     "@babel/preset-env": "^7.25.7",
@@ -59,7 +61,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint; npm run format; npm test"
+      "pre-commit": "npm run lint && npm run format && npm test"
     }
   },
   "main": "dist/cjs/index.js",
